@@ -39,6 +39,13 @@ git push
 
 git clone https://github.com/mrregnar/EUproject1.git
 
+//Initial setup
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mrregnar/EUProject1Final.git
+git push -u origin main
+
 
 //After setup to maintain git hub
 git status
