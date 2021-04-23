@@ -5,6 +5,9 @@ For instructions on how to install MongoDB on all platforms see this link: https
 Run this command to import into a local installation of mongodb from the same directory as this README.md file is located:
 mongoimport --db UnknownOrigins -c scenes --file exportUnkOri.json
 
+*** Do not run this... Shown only here as an example
+mongoexport --db UnknownOrigins -c scenes --out exportUnkOri.json
+
 From a terminal window in the same directory that the server.js is found, run these commands:
 
 npm install
