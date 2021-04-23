@@ -2,6 +2,8 @@ You must have MongoDB installed to play this game. MongoD needs to running in a 
 
 For instructions on how to install MongoDB on all platforms see this link: https://docs.mongodb.com/manual/installation/
 
+In the root folder of the git clone you will find a file called exportUnkOri.json.delext. Rename it too: exportUnkOri.json
+
 Run this command to import into a local installation of mongodb from the same directory as this README.md file is located:
 mongoimport --db UnknownOrigins -c scenes --file exportUnkOri.json
 
