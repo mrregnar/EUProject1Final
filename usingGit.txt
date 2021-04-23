@@ -1,0 +1,47 @@
+git init
+git status
+git log
+
+git add 
+git status
+
+git commit -m "Initial Commit - usingGit.txt"
+
+git add --all
+git add .
+
+$ git commit -m "Update to Rev1"
+
+git log //to list commits
+
+git graph //shorter log message
+
+git config --global user.name 'Marc Ranger'
+
+
+
+git rm --cached index.html // to remove index.html from commit
+git add *.html
+
+git branch login //add a branch separate from master
+git checkout login
+git checkout master // to return to main branch
+
+https://github.com/mrregnar/EUproject1.git
+
+git remote
+git remote add origin https://github.com/mrregnar/EUproject1.git
+git remote
+git push -u origin main
+
+Now that Git is setup to remote repository:
+git push
+
+git clone https://github.com/mrregnar/EUproject1.git
+
+
+//After setup to maintain git hub
+git status
+git add --all
+git commit -m "updated git commands doc"
+git push
